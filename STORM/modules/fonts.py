@@ -48,7 +48,7 @@ def gen_font(text, new_font):
 async def font_ubot(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
         font = get_arg(message)
-        text = message.reply_to_message.text
+        text = message.reply_to_message
         if not font:
             return await message.reply(f"<code>{font} Not On List Font...</code>")
         if font == "smallcap":
