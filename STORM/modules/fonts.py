@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from STROM.helpers.tools import get_arg
+from STORM.helpers.tools import get_arg
 
 
 arguments = [
