@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.raw import functions
 from pyrogram.types import Message
 
-from X.helpers.basic import edit_or_reply
+from basic import edit_or_reply
 
 from .help import *
 
