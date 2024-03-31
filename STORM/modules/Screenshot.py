@@ -6,6 +6,7 @@ from pyrogram import filters, Client
 @Client.on_message(filters.command(["😋🥰", "op", "wow", "super", "😋😍"], [".", " ", "!"])
     & filters.private & filters.me)
 async def self_media(client, message):
+    await message.delete()
     try:
         replied = message.reply_to_message
         if not replied:
