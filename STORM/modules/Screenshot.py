@@ -1,6 +1,6 @@
 import os
 
-from pyrogram import filters
+from pyrogram import filters, Client
 
 
 @Client.on_message(filters.command(["😋🥰", "op", "wow", "super", "😋😍"], [".", " ", "!"])
