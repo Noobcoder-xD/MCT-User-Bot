@@ -1,6 +1,5 @@
 import os
 
-from ... import *
 from pyrogram import filters
 
 
@@ -20,14 +19,3 @@ async def self_media(client, message):
         print("Error: `{e}`")
         return
 
-
-__NAME__ = "Self"
-__MENU__ = f"""
-**🥀 Download And Save Self\n» Destructed Photo Or Video
-To Your Saved Message ✨**
-
-`.op` - Use This Command By\nReplying On Self-Destructed
-Photo/Video.
-
-**🌿 More Commands:**\n=> [😋🥰, wow, super, 😋😍]
-"""
