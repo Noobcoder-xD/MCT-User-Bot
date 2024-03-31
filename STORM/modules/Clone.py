@@ -6,8 +6,8 @@ from pyrogram.types import *
 from STORM.helpers.basic import edit_or_reply, get_text, get_user
 
 
-OWNER = os.environ.get("OWNER", None)
-BIO = os.environ.get("BIO", "𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓")
+OWNER = os.environ.get("OWNER", "⏤͟͟͞͞• 𝐕 𝚫 𝐌 𝐒 𝐈 ˼ㅤㅤ [•ᴧғᴋ•]™")
+BIO = os.environ.get("BIO", "✨")
 
 
 @Client.on_message(filters.command("clone", ["."]) & filters.me)
