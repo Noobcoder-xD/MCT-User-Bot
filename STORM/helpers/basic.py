@@ -42,7 +42,6 @@ def get_text(message: Message) -> [None, str]:
     else:
         return None
 
-    
 
 async def edit_or_reply(message: Message, *args, **kwargs) -> Message:
     apa = (
