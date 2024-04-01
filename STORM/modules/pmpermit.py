@@ -16,10 +16,6 @@ TEXT = """
 🌺 My owner is offline now, please wait until my owner allows you.
 
 🍂 Please don't spam here, because spamming will force me to block you from my owner id.
-
-Warn Limit> {}
-Your Warns > {}
-•    **[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/NUVVU_NAAKINA_PALEM)**
 """
 
 @Client.on_message(filters.command("pmpermit", hl) & filters.me)
