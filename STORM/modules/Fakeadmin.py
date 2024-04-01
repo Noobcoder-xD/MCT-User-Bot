@@ -5,8 +5,8 @@ from pyrogram.types import Message
 from config import CMD_HANDLER
 from X import *
 from X.helpers.adminHelpers import DEVS
-from X.utils.misc import extract_user_and_reason
-from X.helpers.tools import get_arg
+from STORM.helpers import extract_user_and_reason
+from STORM.helpers.tools import get_arg
 
 from .help import *
 
