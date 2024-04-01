@@ -3,16 +3,14 @@ from asyncio import sleep
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from config import CMD_HANDLER
-from X.helpers.tools import get_arg
+from STORM.helpers.tool import get_arg
 
-from .help import *
 
 spam_chats = []
 
 
 
-@Client.on_message(filters.command("tagall", cmd) & filters.me)
+@Client.on_message(filters.command("tagall", ["."]) & filters.me)
 async def mentionall(client: Client, message: Message):
     await message.delete()
     chat_id = message.chat.id
@@ -44,7 +42,7 @@ async def mentionall(client: Client, message: Message):
         pass
 
 
-@Client.on_message(filters.command("cancel", cmd) & filters.me)
+@Client.on_message(filters.command("cancel", ["."]) & filters.me)
 async def cancel_spam(client: Client, message: Message):
     if not message.chat.id in spam_chats:
         return await message.edit("**Looks like there's no tagall here.**")
@@ -56,16 +54,4 @@ async def cancel_spam(client: Client, message: Message):
         return await message.edit("**Stop Mention.**")
 
 
-add_command_help(
-    "•─╼⃝𖠁 ᴛᴀɢᴀʟʟ",
-    [
-        [
-            "mention [ᴛᴇxᴛ/ʀᴇᴘʟʏ ᴋᴇ ᴄʜᴀᴛ]",
-            "Fᴏʀ Mᴇɴᴛɪᴏɴꜱ ᴏғ ᴀʟʟ ᴍᴇᴍʙᴇʀꜱ ɢʀᴏᴜᴘ",
-        ],
-        [
-            "cancel",
-            f"Tᴏ Cᴀɴᴄᴇʟ ᴀɴ Oʀᴅᴇʀ {cmd}tagall",
-        ],
-    ],
-) 
+ 
