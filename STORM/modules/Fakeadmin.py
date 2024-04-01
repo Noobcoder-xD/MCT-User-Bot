@@ -5,7 +5,7 @@ from pyrogram.types import Message
 from config import CMD_HANDLER
 from  import *
 from helpers.adminHelpers import DEVS
-from STORM.helpers import extract_user_and_reason
+from STORM.helpers.basic import extract_user_and_reason
 from STORM.helpers.tools import get_arg
 
 from .help import *
