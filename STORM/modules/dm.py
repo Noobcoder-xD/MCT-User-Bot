@@ -19,12 +19,12 @@ async def dmraid(xspam: Client, message: Message):
           id = ok.id
 
           if id in STORMS:
-                await message.reply_text(f"ᴠᴇʀɪꜰɪᴇᴅ ʙʏ ꜱᴛᴏʀᴍ ✅")
+                await message.reply_text(f"Your The Verified Lanja✅")
           elif id in SUDO_USERS:
-                await message.reply_text(f"ᴛʜɪs ᴘᴇʀsᴏɴ ɪs sᴜᴅᴏ ᴜsᴇʀ 💗")
+                await message.reply_text(f"This Person ni sudo Loki add dhenginam")
           else:
               counts = int(kex[1])
-              await message.reply_text("ᴅᴍ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ⚠️")
+              await message.reply_text("Dm Raid Ayindhi Ra Puka")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -37,12 +37,12 @@ async def dmraid(xspam: Client, message: Message):
           id = ok.id
 
           if id in STORMS:
-                await message.reply_text(f"ᴠᴇʀɪꜰɪᴇᴅ ʙʏ ꜱᴛᴏʀᴍ ✅")
+                await message.reply_text(f"Your The Verified Lanja✅")
           elif id in SUDO_USERS:
-                await message.reply_text(f"ᴛʜɪs ᴘᴇʀsᴏɴ ɪs sᴜᴅᴏ ᴜsᴇʀ 💗")
+                await message.reply_text(f"This Person ni sudo Loki add dhenginam")
           else:
               counts = int(kex[1])
-              await message.reply_text("ᴅᴍ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ⚠️")
+              await message.reply_text("Dm Raid Ayindhi Ra Puka")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -60,12 +60,12 @@ async def dmspam(client: Client, message: Message):
     if  len(kex) == 4:
         uid = int(kex[2])
         if uid in STORMS:
-            await message.reply_text(f"ᴠᴇʀɪꜰɪᴇᴅ ʙʏ ꜱᴛᴏʀᴍ ✅")
+            await message.reply_text(f"Your The Verified Lanja✅")
         elif uid in SUDO_USERS:
-            await message.reply_text(f"ᴛʜɪs ᴘᴇʀsᴏɴ ɪs sᴜᴅᴏ ᴜsᴇʀ 💗")
+            await message.reply_text(f"This Person ni sudo Loki add dhenginam")
         else:
             quantity, spam_text = int(kex[1]), kex[3]
-            await message.reply_text("ᴅᴍ ꜱᴘᴀᴍ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ⚠️")
+            await message.reply_text("Dm la Dhengulata Successfull ga started")
             for _ in range(quantity):
                 await client.send_message(uid, spam_text)
                 await asyncio.sleep(0.3)
@@ -74,13 +74,13 @@ async def dmspam(client: Client, message: Message):
         id = message.reply_to_message.from_user.id
 
         if id in STORMS:
-            await message.reply_text(f"ᴠᴇʀɪꜰɪᴇᴅ ʙʏ ꜱᴛᴏʀᴍ ✅")
+            await message.reply_text(f"Your The Verified Lanja✅")
         elif id in SUDO_USERS:
-            await message.reply_text(f"ᴛʜɪs ᴘᴇʀsᴏɴ ɪs sᴜᴅᴏ ᴜsᴇʀ 💗")
+            await message.reply_text(f"This Person ni sudo Loki add dhenginam")
         else:
             quantity = int(kex[1])
             spam_text = kex[2]
-            await message.reply_text("ᴅᴍ ꜱᴘᴀᴍ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ⚠️")
+            await message.reply_text("Dm la Dhengulata Successfull ga started")
             for _ in range(quantity):
                 await client.send_message(id, spam_text)
                 await asyncio.sleep(0.3)
