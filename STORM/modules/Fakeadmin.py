@@ -3,8 +3,8 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from config import CMD_HANDLER
-from X import *
-from X.helpers.adminHelpers import DEVS
+from  import *
+from helpers.adminHelpers import DEVS
 from STORM.helpers import extract_user_and_reason
 from STORM.helpers.tools import get_arg
 
