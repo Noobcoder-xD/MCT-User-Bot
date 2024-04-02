@@ -13,7 +13,7 @@ from pyrogram.raw.types import InputStickerSetShortName
 from pyrogram.types import Message
 
 from STORM.helpers.basic import edit_or_reply
-from STORM.helpers.PyroHelpers import ReplyCheck
+from STORM.helpers.Pyrohelpers import ReplyCheck
 from STORM.helpers.tool import get_arg, get_text, resize_media
 from STORM.utils.tools import add_text_img, bash
 
