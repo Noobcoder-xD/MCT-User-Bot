@@ -116,3 +116,4 @@ async def watcher(_, msg: Message):
     if id in rusers:
         reply = choice(RAID)
         await msg.reply_text(reply)
+
