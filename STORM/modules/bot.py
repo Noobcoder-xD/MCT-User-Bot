@@ -7,7 +7,7 @@ from config import ALIVE_PIC, SUDO_USERS
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-KEX = f"""ㅤ Iam a UserBot ‌🪽
+KEX = f"""ㅤ Iam a UserBot ‌🪽\n
 Hey Iam Alive Chief"""
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["ping"], ["."]))
