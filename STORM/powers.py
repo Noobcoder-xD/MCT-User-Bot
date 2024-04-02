@@ -1,5 +1,6 @@
 from pyrogram.types import Message, User
 from pyrogram import Client, enums
+import telegraph
 import os
 import sys
 from re import sub
