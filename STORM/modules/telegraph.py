@@ -26,7 +26,7 @@ async def uptotelegraph(client: Client, message: Message):
             m_d = await message.reply_to_message.download()
         try:
             media_url = upload_file(m_d)
-        except exceptions.TelegraphException as exc:
+        except exceptions.telegraphException as exc:
             await X.edit(f"**ERROR:** `{exc}`")
             os.remove(m_d)
             return
@@ -41,7 +41,7 @@ async def uptotelegraph(client: Client, message: Message):
         page_text = page_text.replace("\n", "<br>")
         try:
             response = telegraph.create_page(page_title, html_content=page_text)
-        except exceptions.TelegraphException as exc:
+        except exceptions.telegraphException as exc:
             await X.edit(f"**ERROR:** `{exc}`")
             return
         wow_graph = f"**Successfully uploaded to** [Telegraph](https://telegra.ph/{response['path']})"
