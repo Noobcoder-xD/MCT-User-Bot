@@ -6,13 +6,10 @@ hl = "."
 pm_watcher = 5
 KEX = PM_PIC
 
-TEXT = """**Hi IAM Userbot 
+TEXT = """**Hey, I am an advanced & superfast high quality userbot assistant with an upgraded version security system.\n
 ╰• **Owner** » {}
-• **This is Pm Security 🛡️**
 ➖➖➖➖➖➖➖➖➖➖➖ 
-**Hi Bro** 🥀
-**My owner is offline now, please wait until my** **owner allows you.**
-**Please don't spam here, because spamming will **force me to block you from my owner id.**
+My owner is offline now, please wait until my owner allows you.\nPlease don't spam here, because spamming will **force me to block you from my owner id.**\n
 • **Warn Limits** » {}      
 ╰• **Your Warns** » {}
 ➖➖➖➖➖➖➖➖➖➖➖
