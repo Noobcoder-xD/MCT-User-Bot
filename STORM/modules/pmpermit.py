@@ -10,10 +10,9 @@ TEXT = """**Hi IAM Userbot
 ╰• **Owner** » {}
 • **This is Pm Security 🛡️**
 ➖➖➖➖➖➖➖➖➖➖➖ 
-    **Hi Bro** 🥀
-    **If You Spam Here Without My**
-    **Owner's Approval You Will Be**
-    **Blocked** 
+**Hi Bro** 🥀
+**My owner is offline now, please wait until my** **owner allows you.**
+**Please don't spam here, because spamming will **force me to block you from my owner id.**
 • **Warn Limits** » {}      
 ╰• **Your Warns** » {}
 ➖➖➖➖➖➖➖➖➖➖➖
