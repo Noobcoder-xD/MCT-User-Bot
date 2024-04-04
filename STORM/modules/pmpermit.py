@@ -10,7 +10,6 @@ TEXT = """**Hey, I am an advanced & superfast high quality userbot assistant wit
 ╰• **Owner** » {}
 ➖➖➖➖➖➖➖➖➖➖➖ 
 **My owner is offline now, please wait until my owner allows you**.\n 
-
  **Please don't spam here, because spamming will force me to block you from my owner id**\n
 • **Warn Limits** » {}      
 ╰• **Your Warns** » {}
