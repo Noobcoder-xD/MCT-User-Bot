@@ -6,19 +6,18 @@ hl = "."
 pm_watcher = 5
 KEX = PM_PIC
 
-TEXT = """
-•            **🤖 SECURITY WARNING ‼️
-
-🥀 Hey, I am an advanced & superfast high quality userbot assistant with an upgraded version security system.
-
-🌿 I can't let you message my owner's dm without my owner's permission.
-
-🌺 My owner is offline now, please wait until my owner allows you.
-
-🍂 Please don't spam here, because spamming will force me to block you from my owner id.
-      
-       Your Warns {}
-       Warns Limit {}
+TEXT = """**[ꜱᴛᴏʀᴍ](https://github.com/VARC9210/STORM-USERBOT)**
+╰• **ᴏᴡɴᴇʀ** » {}
+• **ᴛʜɪs ɪs ᴋᴇx ᴘᴍ sᴇᴄᴜʀɪᴛʏ 🛡️**
+➖➖➖➖➖➖➖➖➖➖➖ 
+    **ʜᴇʏ ʙᴜᴅᴅʏ** 🥀
+    **ɪғ ʏᴏᴜ sᴘᴀᴍ ʜᴇʀᴇ ᴡɪᴛʜᴏᴜᴛ ᴍʏ**
+    **ꜱᴇɴꜱᴇɪ's ᴀᴘᴘʀᴏᴠᴀʟ ʏᴏᴜ ᴡɪʟʟ ʙᴇ**
+    **ʙʟᴏᴄᴋᴇᴅ** 
+• **ᴡᴀʀɴ ʟɪᴍɪᴛs** » {}      
+╰• **ʏᴏᴜʀ ᴡᴀʀɴs** » {}
+➖➖➖➖➖➖➖➖➖➖➖
+•           **[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/STORM_CHATZ)
 """
 
 @Client.on_message(filters.command("pmpermit", hl) & filters.me)
