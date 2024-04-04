@@ -16,6 +16,9 @@ TEXT = """
 🌺 My owner is offline now, please wait until my owner allows you.
 
 🍂 Please don't spam here, because spamming will force me to block you from my owner id.
+      
+       Your Warns {}
+       Warns Limit {}
 """
 
 @Client.on_message(filters.command("pmpermit", hl) & filters.me)
