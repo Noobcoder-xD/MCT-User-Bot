@@ -6,18 +6,18 @@ hl = "."
 pm_watcher = 5
 KEX = PM_PIC
 
-TEXT = """**[ꜱᴛᴏʀᴍ](https://github.com/VARC9210/STORM-USERBOT)**
-╰• **ᴏᴡɴᴇʀ** » {}
-• **ᴛʜɪs ɪs ᴋᴇx ᴘᴍ sᴇᴄᴜʀɪᴛʏ 🛡️**
+TEXT = """**Hi IAM Userbot 
+╰• **Owner** » {}
+• **This is Pm Security 🛡️**
 ➖➖➖➖➖➖➖➖➖➖➖ 
-    **ʜᴇʏ ʙᴜᴅᴅʏ** 🥀
-    **ɪғ ʏᴏᴜ sᴘᴀᴍ ʜᴇʀᴇ ᴡɪᴛʜᴏᴜᴛ ᴍʏ**
-    **ꜱᴇɴꜱᴇɪ's ᴀᴘᴘʀᴏᴠᴀʟ ʏᴏᴜ ᴡɪʟʟ ʙᴇ**
-    **ʙʟᴏᴄᴋᴇᴅ** 
-• **ᴡᴀʀɴ ʟɪᴍɪᴛs** » {}      
-╰• **ʏᴏᴜʀ ᴡᴀʀɴs** » {}
+    **Hi Bro** 🥀
+    **If You Spam Here Without My**
+    **Owner's Approval You Will Be**
+    **Blocked** 
+• **Warn Limits** » {}      
+╰• **Your Warns** » {}
 ➖➖➖➖➖➖➖➖➖➖➖
-•           **[ꜱᴜᴘᴘᴏʀᴛ](https://t.me/STORM_CHATZ)
+•           
 """
 
 @Client.on_message(filters.command("pmpermit", hl) & filters.me)
