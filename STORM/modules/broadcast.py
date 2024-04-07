@@ -5,7 +5,6 @@ from pyrogram.types import Message
 from requests import get
 
 
-from STORM import SUDO_USER
 
 from STORM.modules.helmp import add_command_help
 
