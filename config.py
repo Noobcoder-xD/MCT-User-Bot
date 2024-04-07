@@ -12,6 +12,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 OPENAIKEY = getenv("OPENAIKEY")
 PM_PIC = "https://graph.org/file/bf1fdd404a82d508a7ed5.jpg"
+STRING_SESSION1 = getenv("STRING_SESSION1")
 SESSION2 = getenv("SESSION2")
 SESSION3 = getenv("SESSION3")
 SESSION4 = getenv("SESSION4")
